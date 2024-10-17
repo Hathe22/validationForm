@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  width: 90%;
+}
+form {
+  text-align: center;
+}
+label {
+  min-width: 100px;
+}
+title {
+  text-align: center;
+}

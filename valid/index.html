@@ -1,0 +1,46 @@
+ValidForm.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Valid form</title>
+    <script src="./form.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form name="frmAccount" action="abc.jsp">
+      <table class="form">
+        <tr>
+          <td><label name="fullname">fullname:</label></td>
+
+          <td><input type="text" name="fullname" /></td>
+        </tr>
+        <tr>
+          <td><label name="age">age:</label></td>
+          <td><input type="text" name="age" /></td>
+        </tr>
+        <tr>
+          <td><label name="gender">gender:</label></td>
+
+          <td>
+            <input type="radio" name="gender" /> Male
+            <input type="radio" name="gender" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td><label name="phone">phone:</label></td>
+          <td><input type="text" name="phone" /><br /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="button"
+              value="Submit"
+              onclick="validform(document.forms.frmAccount);"
+            />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
